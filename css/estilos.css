@@ -2,4 +2,135 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #5d5d5d;
     text-align: center;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.hero-img{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: auto;
+    height: 80px;
+}
+.nav{
+    display: inherit;
+    height: inherit;
+}
+.nav ol{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ol li{
+    width: 10vw;
+    font-size: 1.5em;
+    margin: 0 10px;
+    height: inherit;
+    display: inherit;
+    justify-content: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #a0c334;
+    height: inherit;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.black{
+    background-color: black;
+}
+
+.hero{
+    height: 80vh;
+    border: solid #a0c334 2px;
+    background-image: url(../images/HERO.jpg);
+    background-position:center;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-weight: 300;
+    font-size: 1em;
+    text-shadow: 1px 1px 2px #5d5d5d;
+}
+
+.hero h1 {
+    font-weight: 400;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #5d5d5d;
+    margin-top: 0;
+}
+
+.button-hero {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: #a0c334;
+    width: 400px;
+    height: 80px;
+    border: 0;
+    border-radius: 16px;
+}
+
+.Calidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills{
+    display: flex;
+    height: 400px;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    border: solid green 2px;
+}
+
+.details{
+    width: 60%;
+    border: solid green 2px;
+    text-align: left;
+}
+
+.details-title{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.box{
+    display:block; 
+    width: 99px; 
+    padding: 2px;
+    border: 1px solid pink;
+    background: #a0c334;
 }
